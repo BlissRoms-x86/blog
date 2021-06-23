@@ -1,58 +1,90 @@
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>Bliss OS Blog</title>
-<link rel="shortcut icon" href="https://blog.blissos.org/favicon.ico?v=1624453750229">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="description" content="The Blog Site for Bliss OS - And Open-Source operating system for PC&#39;s based on Android Open Source Project">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://blog.blissos.org/favicon.ico?v=1624454162592">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://blog.blissos.org/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Bliss OS Blog - Atom Feed" href="https://blog.blissos.org/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-  <meta name="description" content="The Blog Site for Bliss OS - And Open-Source operating system for PC's based on Android Open Source Project" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://blog.blissos.org">
-  <img class="avatar" src="https://blog.blissos.org/images/avatar.png?v=1624453750229" alt="">
-  </a>
-  <h1 class="site-title">
-    Bliss OS Blog
-  </h1>
-  <p class="site-description">
-    The Blog Site for Bliss OS - And Open-Source operating system for PC's based on Android Open Source Project
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          Home
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          Archives
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          Tags
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          About
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://blog.blissos.org">
+        <img class="avatar" src="https://blog.blissos.org/images/avatar.png?v=1624454162592" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://blog.blissos.org">
+        <h1 class="site-title">Bliss OS Blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            Home
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            Archives
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            Tags
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            About
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+        <div class="content-container">
+          
+          <div class="tags-container">
+            
+          </div>
+
+        </div>
+
+        <div class="site-footer">
+  <div class="slogan">The Blog Site for Bliss OS - And Open-Source operating system for PC's based on Android Open Source Project</div>
   <div class="social-container">
     
       
@@ -66,21 +98,27 @@
       
     
   </div>
+  A <a href="https://blisslabs.org" target="_blank">BlissLabs </a>Project  | <a class="rss" href="https://blog.blissos.org/atom.xml" target="_blank">RSS</a>
 </div>
 
-
-        <div class="tags-container">
-          
-        </div>
-
-        <div class="site-footer">
-  A <a href="https://blisslabs.org" target="_blank">BlissLabs </a>Project 
-  <a class="rss" href="https://blog.blissos.org/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
 
       </div>
+      <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
     </div>
   </body>
 </html>
