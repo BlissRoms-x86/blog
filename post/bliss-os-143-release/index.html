@@ -1,0 +1,286 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bliss OS 14.3 Release | Bliss OS Blog</title>
+<link rel="shortcut icon" href="https://blog.blissos.org/favicon.ico?v=1624453750229">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://blog.blissos.org/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Bliss OS 14.3 Release | Bliss OS Blog - Atom Feed" href="https://blog.blissos.org/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="Bliss OS 14.3 - Generic, and 32bit Builds
+We have a number of things to go through here, so let's not waste any time. I ..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://blog.blissos.org">
+  <img class="avatar" src="https://blog.blissos.org/images/avatar.png?v=1624453750229" alt="">
+  </a>
+  <h1 class="site-title">
+    Bliss OS Blog
+  </h1>
+  <p class="site-description">
+    The Blog Site for Bliss OS - And Open-Source operating system for PC's based on Android Open Source Project
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          Home
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          Archives
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          Tags
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          About
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Bliss OS 14.3 Release
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-06-17
+              </span>
+              <span>
+                8 min read
+              </span>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://i.imgur.com/2cRqHwM.png" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h1 id="bliss-os-143-generic-and-32bit-builds">Bliss OS 14.3 - Generic, and 32bit Builds</h1>
+<p>We have a number of things to go through here, so let's not waste any time. I have decided it's time to start releasing some of the builds on a regular basis again. Starting off, we have an x86_64 build of Bliss OS 14.3 with Gapps included and arm64 native-bridge, and reintroducing 32bit (x86) builds into the mix. We also have a barebones stock AG-11 (Android-x86 11), with Boringdroid added instead of Taskbar for main Desktop UI</p>
+<p><strong>New Documentation Site:</strong><br>
+We had to take down our wiki due to issues beyond our control, so things are now moved to https://docs.blissos.org</p>
+<p><strong>New Build Instructions:</strong><br>
+We now have a couple options for compiling. You can use the instructions found on our <a href="https://docs.blissos.org/build-bliss-os/build-bliss-os-14.x">docs site</a><br>
+Or you can now use the menu-driven <a href="https://github.com/android-generic/vendor_ag/blob/master/README.md">Android-Generic Project 2.0</a></p>
+<p><strong>Updates Overview:</strong></p>
+<ul>
+<li>kernel-5.10.x &amp; kernel-5.4.x versions</li>
+<li>Added/Updated Gearlock</li>
+<li>Fixes to bootable USB installer for Android 11</li>
+<li>KVM support added to 5.10.xx kernels</li>
+<li>Lots more, check the changelog</li>
+</ul>
+<p><strong>Gearlock kernel command Notes:</strong><br>
+NOGFX=0 - Do not override kernel CLI options (needed if you plan on using Vulkan mode)<br>
+NORECOVERY=0 - Do not enter recovery or show countdown for it (should not combine any other Gearlock options with this)<br>
+NOSC=0 - Do not supercharge the system partition/image on boot<br>
+ALWAYSRECOVERY=0 - Always boot into recovery first.</p>
+<p><strong>!!WARNING!!</strong> The builds that use Kernel-5.2+ are no longer compatible with the AUTO_LOAD=old kernel command line option. If you are using this option to boot, then you will not be able to. It will bootloop.</p>
+<p>PLEASE NOTE I recommend everyone testing to also use this in Vulkan mode or boot using gbm_gralloc (which is now the default). Vulkan mode can be done from the Advanced grub menu if you installed using the bootable installer, or if you used a different grub, you will want to add &quot;VULKAN=1&quot; to the grub entry before the word &quot;quiet&quot;. If your device doesn't support Vulkan, you can add &quot;GRALLOC=gbm&quot; to the same place in your grub entry. Sleep states should work fine after that.<br>
+Other bootloop issues can also be solved by booting with GRALLOC=gbm command -line option.</p>
+<h2 id="builds-being-uploaded">Builds being uploaded:</h2>
+<ul>
+<li>BlissOS-14.3-x86_64-202106171155_k-google-5.10.32-lts-pledge-xanmod_m-r_emugapps_cros-hd.iso <strong>ARM64 not working</strong></li>
+<li>BlissOS-14.3-x86-202106172025_k-google-5.4.112-lts-ax86_m-r_foss_cros-hd.iso</li>
+<li>BlissOS-14.3-x86_64-202106181339_k-google-5.4.112-lts-ax86_m-r_emugapps_cros-hd_gearlock.iso</li>
+<li>AG-11--x86_64-202106131243_k-kernel-5.4_m-x86.iso</li>
+</ul>
+<p>Known new issues:</p>
+<ul>
+<li>Sleep states aren't working right on a few machines. Some can cause SystemUI to restart.</li>
+<li>Some machines still have volume/sound issues, use 3rd party EQ or volume control.</li>
+<li>Native-Bridge for ARM64 is not working in BlissOS-14.3-x86_64-202106171155 build. The BlissOS-14.3-x86_64-202106181339 build has this fixed.</li>
+<li>Bluetooth is not working for many devices.</li>
+</ul>
+<h2 id="download">Download:</h2>
+<p>Website has been updated with most recent build links. Including a couple AOSP 11 builds (Stock &amp; FOSS)<br>
+https://blissos.org</p>
+<h2 id="changelog">Changelog:</h2>
+<p><strong>2021-06-17</strong><br>
+  bootable/newinstaller 948027a  Apply GearLock patches #1 for bootable/newinstaller/install/grub2/efi/boot/android.cfg  [AXON]<br>
+09921b6  Apply GearLock patches #1 for bootable/newinstaller/install/scripts/1-install  [AXON]<br>
+80e9323  Apply GearLock patches #1 for bootable/newinstaller/initrd/init  [AXON]<br>
+2cc9399  Apply GearLock patches #1 for bootable/newinstaller/Android.mk  [AXON]<br>
+56a2e92  Apply GearLock 7.2.38 initrd hook  [AXON] <br>
+  device/generic/common 2b00b92  Apply GearLock patches #1 for device/generic/common/device.mk  [AXON]<br>
+bdd6020  Add Boringdroid  [AGP-BOT] <br>
+  hardware/interfaces 52c7d4b  wifi: optionally reset the interface after setMacAddress  [Tim Zimmermann]<br>
+a90abad  Generate unique random mac address per AP interface  [Veerendranath Jakkam]<br>
+46fd3b5  Revert &quot;Fix so that dual access points (AP) works.&quot;  [Purushottam Kushwaha]<br>
+281306e  Revert &quot;fpc: keep fpc in system-background&quot;  [Jake Weinstein]<br>
+9f49e62  bluetooth: do not fatally error on unknown packet types  [Billy Laws]<br>
+7856819  Revert &quot;Make sure passthrough fails initialization if required interfaces can not be initialized.&quot;  [LuK1337] <br>
+<strong>2021-06-11</strong><br>
+  bootable/newinstaller ff854af  Add AG build options  [Jon West]<br>
+42bd3c1  Add sha sum generation  [Jon West] <br>
+<strong>2021-06-08</strong><br>
+  packages/apps/Launcher3 0b3949e  Add PACKAGE_USAGE_STATS permissions  [Jon West] <br>
+<strong>2021-06-02</strong><br>
+  vendor/foss d665060  Update scripts for permission generation  [Jon West]<br>
+8bfe778  Revert &quot;vendor/foss: Include permissions required for Android devices. (priv-app)&quot;  [Jackeagle]<br>
+cae8cc1  foss: Re-enable alarmio app  [Jackeagle]<br>
+e3f3d9e  vendor/foss: Include permissions required for Android devices. (priv-app)  [Jackeagle] <br>
+<strong>2021-05-31</strong><br>
+  bootable/newinstaller 03dffdd  Allow us to use 32bit rusty-magisk  [Jon West] <br>
+  device/generic/common f1ecaaa  Allow us to use a separate virtualbox kernel.mk  [Jon West] <br>
+  vendor/foss e820929  Add x86 (32bit) support  [Jon West] <br>
+<strong>2021-05-29</strong><br>
+  device/generic/common f5edf69  Bring in gpu_access from Cuttlefish  [Jon West] <br>
+<strong>2021-05-28</strong><br>
+  device/generic/common 296bb90  Update sepolicy for widevine and drm  [Jon West] <br>
+<strong>2021-05-27</strong><br>
+  device/generic/common 396f73e  Remove pre-1.3 drm hals  [Robert Shih]<br>
+a9ab73a  Move to clearkey drm 1.3 for cros widevine  [Jon West]<br>
+3b1392b  Add houdini switch  [Jon West]<br>
+4e3fe32  Add switches for using Houdini or libndk NB  [Jon West] <br>
+<strong>2021-05-26</strong><br>
+  manifest 12dadf5  Track our own platform_testing &amp; device/lineage/sepolicy  [Jon West] <br>
+  platform_testing fa285af  Remove BluetoothInstrumentationTests  [Jon West] <br>
+<strong>2021-05-25</strong><br>
+  external/llvm-   * 3ec3c51  DO NOT MERGE: android: translate soong build rules for libLLVM12  [Mauro Rossi]<br>
+2438d13  android: fix build errors in Android S  [Michael Goffioul]<br>
+f6d76fb  android: VNDK support for libLLVM and llvm-amdgpu-headers  [Mauro Rossi] <br>
+<strong>2021-05-23</strong><br>
+  bootable/recovery c600266  Revert &quot;recovery: Allow custom bootloader msg offset in block misc&quot;  [Alessandro Astone]<br>
+459c667  Revert &quot;recovery: wipe bootloader message from index 0 when using custom offsets&quot;  [Alessandro Astone] <br>
+  device/lineage/sepolicy 2879ae4  adapt to GSI  [Victor Bo] <br>
+  hardware/lineage/interfaces 65352a0  Remove cryptfshw for PC builds  [Jon West] <br>
+  manifest 4761a7f  Track our own recovery  [Jon West]<br>
+54c7779  Combine manifests for PC builds  [Jon West]<br>
+3820759  Prep for PC builds  [Jon West] <br>
+<strong>2021-05-22</strong><br>
+  bootable/newinstaller 3afc11e  Remove ext4 install option  [Jon West] <br>
+  device/generic/common bc286b0  Switch to gbm as default gralloc  [Jon West] <br>
+  packages/apps/Dialer 4f5db85  Improve contatcts layout  [DennySPB]<br>
+f405a76  Add ability to set full screen photos for calls  [Alexey Derendyaev]<br>
+393ea0a  CallRecordingAutoMigrator: Handle all exceptions  [Pranav Vashi]<br>
+252fbbd  Dialer: Make recording names sortable  [Pranav Vashi]<br>
+14c6feb  Add autorecord feature  [DennySPB]<br>
+f5b0058  Dialer: Enable call recording for all  [Pranav Vashi] <br>
+  packages/apps/Settings b2bae91  Fix formatting in Android.bp  [Jon West] <br>
+  vendor/bliss b58ba73  Log private app permissions  [Jon West] <br>
+  vendor/overlays e573fac  Merge changes from topic &quot;gesture-navbar&quot; into r  [Jack] <br>
+<strong>2021-05-21</strong><br>
+  bootable/newinstaller 9612459  Inherit initrd &amp; install tools from openthos  [Jon West]<br>
+1b71379  Update Bliss OS version in filename  [Jon West]<br>
+e9c4e88  Fix errors in init  [Jon West]<br>
+bff7c26  Fix ext3 installation  [Jon West] <br>
+  device/generic/common d76df72  Update with more permissions  [Jon West] <br>
+  frameworks/base a4b91cf  Add Sleep button to Global Power Options  [Jon West] <br>
+  vendor/overlays 2fd06e7  Add Gesture bar radius [3/3]  [pavanpaps]<br>
+6bc63e9  bliss:[SQUASH]allow customizing the length of gesture navbar &amp; hide gesture navbar  [Anay Wadhera] <br>
+<strong>2021-05-20</strong><br>
+  vendor/overlays c06a7cf  overlays: Switch to ThemePicker  [Jackeagle] <br>
+<strong>2021-05-19</strong></p>
+<p>Thanks again 😉</p>
+<p>Head on over to http://blisslabs.org for info on BlissLabs or http://blissos.org for more info on Bliss OS.</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#bliss-os-143-generic-and-32bit-builds">Bliss OS 14.3 - Generic, and 32bit Builds</a>
+<ul>
+<li><a href="#builds-being-uploaded">Builds being uploaded:</a></li>
+<li><a href="#download">Download:</a></li>
+<li><a href="#changelog">Changelog:</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  A <a href="https://blisslabs.org" target="_blank">BlissLabs </a>Project 
+  <a class="rss" href="https://blog.blissos.org/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
