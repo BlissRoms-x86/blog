@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.blissos.org</id>
     <title>Bliss OS Blog</title>
-    <updated>2021-06-27T17:57:57.483Z</updated>
+    <updated>2021-06-27T19:14:09.908Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.blissos.org"/>
     <link rel="self" href="https://blog.blissos.org/atom.xml"/>
@@ -10,6 +10,45 @@
     <logo>https://blog.blissos.org/images/avatar.png</logo>
     <icon>https://blog.blissos.org/favicon.ico</icon>
     <rights>All rights reserved 2021, Bliss OS Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Bliss OS 14.3 - 06.26.21 Updates]]></title>
+        <id>https://blog.blissos.org/post/bliss-os-143-062621-updates/</id>
+        <link href="https://blog.blissos.org/post/bliss-os-143-062621-updates/">
+        </link>
+        <updated>2021-06-26T06:13:40.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="bliss-os-143-generic-and-32bit-builds">Bliss OS 14.3 - Generic, and 32bit Builds</h1>
+<p>Since the last update, we have confirmed ARM64 emulation through ChromeOS v91's Houdini, and we have also fixed a number of DRM and Widevine problems, so apps that use those are also working now.<br>
+I also spent a good amount of time updating the new documentation site: https://docs.blissos.org and adding some troubleshooting tips and guides.<br>
+The build I am uploading today will not include Gearlock (no real reason, just didn't select it to include) so I will likely make another update with this combo kernel/mesa including Gearlock later in the week.</p>
+<p><strong>Updates Overview:</strong></p>
+<ul>
+<li>kernel-5.10.46</li>
+<li>Updated Mesa 21.1.3</li>
+<li>Fixes added for iris (i965 graphics)</li>
+<li>Lots more, check the changelog</li>
+</ul>
+<p><strong>!!WARNING!!</strong> The builds that use Kernel-5.2+ are no longer compatible with the AUTO_LOAD=old kernel command line option. If you are using this option to boot, then you will not be able to. It will bootloop.</p>
+<p>PLEASE NOTE I recommend everyone testing to also use this in Vulkan mode or boot using gbm_gralloc (which is now the default). Vulkan mode can be done from the Advanced grub menu if you installed using the bootable installer, or if you used a different grub, you will want to add &quot;VULKAN=1&quot; to the grub entry before the word &quot;quiet&quot;. If your device doesn't support Vulkan, you can add &quot;GRALLOC=gbm&quot; to the same place in your grub entry. Sleep states should work fine after that.<br>
+Other bootloop issues can also be solved by booting with GRALLOC=gbm command -line option.</p>
+<h2 id="builds-being-uploaded">Builds being uploaded:</h2>
+<ul>
+<li>BlissOS-14.3-x86_64-202106261907_k-android12-5.10.46-ax86_m-21.1.3_r-x86_emugapps_cros-hd.iso <strong>ARM/ARM64 working</strong></li>
+</ul>
+<p>Known new issues:</p>
+<ul>
+<li>Sleep states aren't working right on a few machines. Some can cause SystemUI to restart.</li>
+<li>Some machines still have volume/sound issues, use 3rd party EQ or volume control.</li>
+<li>Still trying to get Bluetooth working on many devices. .</li>
+</ul>
+<h2 id="download">Download:</h2>
+<p>Website has been updated with most recent build links. Including a couple AOSP 11 builds (Stock &amp; FOSS)<br>
+https://blissos.org</p>
+<h2 id="changelog">Changelog:</h2>
+<p>Check the downloads folder for the build changelog.</p>
+<p>Thanks again 😉</p>
+<p>Head on over to http://blisslabs.org for info on BlissLabs or http://blissos.org for more info on Bliss OS.</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bliss OS 14.3 Release]]></title>
         <id>https://blog.blissos.org/post/bliss-os-143-release/</id>
