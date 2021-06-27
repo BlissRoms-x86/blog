@@ -484,7 +484,7 @@ td {
     fill: #1a1a1a;
   }
   .nav-bar .menu-container a.menu {
-    color: #1ABC9C;
+    color: #265cff;
   }
   .nav-bar .menu-container .menu:hover {
     background-color: #373737;
@@ -613,7 +613,7 @@ td {
   font-weight: bolder;
 }
 .post-container .post .post-abstract a {
-  color: #1ABC9C;
+  color: #265cff;
   transition: all 0.3s;
 }
 .post-container .post .post-abstract a:hover {
@@ -652,7 +652,7 @@ td {
     color: #cecece;
   }
   .post-container .post .post-title:hover {
-    color: #1ABC9C;
+    color: #265cff;
   }
   .post-container .post .post-abstract {
     color: #888888;
@@ -661,15 +661,15 @@ td {
     color: #888888;
   }
   .post-container .post .post-abstract a:hover {
-    color: #1ABC9C;
-    border-bottom: 1px dotted #1ABC9C;
+    color: #265cff;
+    border-bottom: 1px dotted #265cff;
   }
   .post-container .post-tag {
-    color: #1ABC9C;
+    color: #265cff;
     background-color: #374151;
   }
   .post-container .post-tag .tag {
-    color: #1ABC9C;
+    color: #265cff;
   }
   .pagination-container a {
     color: #888888;
@@ -710,13 +710,13 @@ span.vat {
 }
 @media (prefers-color-scheme: dark) {
   .v[data-class=v] .vpower a {
-    color: #1ABC9C;
+    color: #265cff;
   }
   span.vat {
-    color: #1ABC9C !important;
+    color: #265cff !important;
   }
   .vh .vcontent a {
-    color: #1ABC9C !important;
+    color: #265cff !important;
   }
 }
 .post-detail {
@@ -930,20 +930,20 @@ span.vat {
     color: #888888;
   }
   .post-detail .post .post-tag {
-    color: #1ABC9C;
+    color: #265cff;
     background-color: #374151;
   }
   .post-detail .post .post-tag .tag {
-    color: #1ABC9C;
+    color: #265cff;
   }
   .post-detail .post .post-content {
     color: #CECECE;
   }
   .post-detail .post .post-content a {
-    color: #1ABC9C;
+    color: #265cff;
   }
   .post-detail .post .post-content a:hover {
-    border-bottom: 1px dotted #1ABC9C;
+    border-bottom: 1px dotted #265cff;
   }
   .post-detail .post .post-content img {
     box-shadow: none;
@@ -954,7 +954,7 @@ span.vat {
   }
   .post-detail .post .post-content blockquote {
     background: #2a2a2a;
-    border-left: 2px solid #1ABC9C;
+    border-left: 2px solid #265cff;
   }
   .post-detail .post .post-content td,
   .post-detail .post .post-content th {
@@ -968,10 +968,10 @@ span.vat {
     color: #888888;
   }
   .near-post .post-title:hover {
-    color: #1ABC9C;
+    color: #265cff;
   }
   .near-post .post-title span:hover {
-    border-bottom: 1px dotted #1ABC9C;
+    border-bottom: 1px dotted #265cff;
   }
 }
 @media (max-width: 600px) {
@@ -1004,7 +1004,7 @@ span.vat {
 }
 @media (prefers-color-scheme: dark) {
   .archives-container .year {
-    color: #1ABC9C;
+    color: #265cff;
   }
   .archives-container .post .post-title {
     color: #888888;
@@ -1044,11 +1044,11 @@ span.vat {
 }
 @media (prefers-color-scheme: dark) {
   .tags-container .tag-list {
-    color: #1ABC9C;
+    color: #265cff;
     background-color: #374151;
   }
   .tags-container .tag {
-    color: #1ABC9C;
+    color: #265cff;
   }
 }
 .current-tag-container .tags {
@@ -1074,7 +1074,7 @@ span.vat {
 }
 @media (prefers-color-scheme: dark) {
   .current-tag-container .tags {
-    color: #1ABC9C;
+    color: #265cff;
     background-color: #374151;
   }
 }
@@ -1097,7 +1097,7 @@ span.vat {
 }
 @media (prefers-color-scheme: dark) {
   .site-footer a {
-    color: #1ABC9C;
+    color: #265cff;
   }
 }
 .hljs {
