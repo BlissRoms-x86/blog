@@ -111,7 +111,7 @@
               <span class="leancloud-visitors-count"></span><span> Reads</span>
             </span>
             <span>
-              4 min read
+              3 min read
             </span>
           </div>
 
@@ -128,14 +128,9 @@ The build I am uploading today will not include Gearlock (no real reason, just d
 <ul>
 <li>kernel-5.10.46</li>
 <li>Updated Mesa 21.1.3</li>
-<li>Updates for Intel (crocus gallium driver) graphics</li>
+<li>Updates for Intel graphics</li>
 <li>Lots more, check the changelog</li>
 </ul>
-<p><strong>Crocus Driver Info</strong><br>
-Iris is made by Intel, crocus isn't. It's made by a Mesa dev (Dave Airlie - who used to work on nouveau) based on iris and i965 code.<br>
-Crocus is the in-development Gallium3D driver focused on Intel Gen4 (i965 chipset) graphics through Gen8 graphics. Intel's modern Iris Gallium3D driver is what provided the OpenGL support for Gen8 Broadwell graphics and newer.<br>
-https://www.phoronix.com/scan.php?page=news_item&amp;px=Crocus-For-Old-Intel-Gallium3D<br>
-https://www.phoronix.com/scan.php?page=news_item&amp;px=Crocus-Gallium3D-Gen8</p>
 <p><strong>!!WARNING!!</strong> The builds that use Kernel-5.2+ are no longer compatible with the AUTO_LOAD=old kernel command line option. If you are using this option to boot, then you will not be able to. It will bootloop.</p>
 <p>PLEASE NOTE I recommend everyone testing to also use this in Vulkan mode or boot using gbm_gralloc (which is now the default). Vulkan mode can be done from the Advanced grub menu if you installed using the bootable installer, or if you used a different grub, you will want to add &quot;VULKAN=1&quot; to the grub entry before the word &quot;quiet&quot;. If your device doesn't support Vulkan, you can add &quot;GRALLOC=gbm&quot; to the same place in your grub entry. Sleep states should work fine after that.<br>
 Other bootloop issues can also be solved by booting with GRALLOC=gbm command -line option.</p>
