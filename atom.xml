@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.blissos.org</id>
     <title>Bliss OS Blog</title>
-    <updated>2021-06-28T02:13:20.914Z</updated>
+    <updated>2021-07-24T19:53:17.843Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.blissos.org"/>
     <link rel="self" href="https://blog.blissos.org/atom.xml"/>
@@ -10,6 +10,46 @@
     <logo>https://blog.blissos.org/images/avatar.png</logo>
     <icon>https://blog.blissos.org/favicon.ico</icon>
     <rights>All rights reserved 2021, Bliss OS Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Bliss OS 14.3 - FOSS builds - 07.24.21]]></title>
+        <id>https://blog.blissos.org/post/bliss-os-143-foss-builds-072421/</id>
+        <link href="https://blog.blissos.org/post/bliss-os-143-foss-builds-072421/">
+        </link>
+        <updated>2021-07-24T07:20:21.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="bliss-os-143-foss-builds">Bliss OS 14.3 - FOSS Builds</h1>
+<p>A somewhat large update this round for 32bit &amp; 64bit PC's. We have also gone live with our website redesign too</p>
+<p><strong>Updates Overview:</strong></p>
+<ul>
+<li>kernel-5.10.50</li>
+<li>Updated Mesa 21.1.3</li>
+<li>Updates for Intel graphics</li>
+<li>Updates for MicroG</li>
+<li>Fixes for root (magisk) on 32bit builds</li>
+<li>Lots more, check the changelog</li>
+</ul>
+<h2 id="builds-being-uploaded">Builds being uploaded:</h2>
+<ul>
+<li>BlissOS-14.3-x86-202107202034_k-android12-5.10.50-ax86_m-21.1.3_r-x86_foss_cros-hd.iso</li>
+<li>BlissOS-14.3-x86_64-202107161936_k-android12-5.10.50-ax86_m-21.1.3_r-x86_foss_cros-hd.iso</li>
+</ul>
+<p>Known new issues:</p>
+<ul>
+<li>Sleep states aren't working right on a few machines. Some can cause SystemUI to restart.</li>
+<li>Some machines still have volume/sound issues, use 3rd party EQ or volume control.</li>
+<li>Still trying to get Bluetooth working on many devices. .</li>
+</ul>
+<h2 id="download">Download:</h2>
+<p>Website has been updated with most recent build links.<br>
+https://blissos.org</p>
+<h2 id="changelog">Changelog:</h2>
+<p>Check the downloads folder for the build changelog.</p>
+<p><strong>!!WARNING!!</strong> The builds that use Kernel-5.2+ are no longer compatible with the AUTO_LOAD=old kernel command line option. If you are using this option to boot, then you will not be able to. It will bootloop.</p>
+<p>PLEASE NOTE I recommend everyone testing to also use this in Vulkan mode or boot using gbm_gralloc (which is now the default). Vulkan mode can be done from the Advanced grub menu if you installed using the bootable installer, or if you used a different grub, you will want to add &quot;VULKAN=1&quot; to the grub entry before the word &quot;quiet&quot;. If your device doesn't support Vulkan, you can add &quot;GRALLOC=gbm&quot; to the same place in your grub entry. Sleep states should work fine after that.<br>
+Other bootloop issues can also be solved by booting with GRALLOC=gbm command -line option.</p>
+<p>Thanks again 😉</p>
+<p>Head on over to http://blisslabs.org for info on BlissLabs or http://blissos.org for more info on Bliss OS.</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bliss OS 14.3 - 06.26.21 Updates]]></title>
         <id>https://blog.blissos.org/post/bliss-os-143-062621-updates/</id>

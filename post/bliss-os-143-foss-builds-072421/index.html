@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Bliss OS 14.3 - 06.26.21 Updates | Bliss OS Blog</title>
+<title>Bliss OS 14.3 - FOSS builds - 07.24.21 | Bliss OS Blog</title>
 <link rel="shortcut icon" href="https://blog.blissos.org/favicon.ico">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
   integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -88,7 +88,7 @@
         <article class="post">
           
           <h2 class="post-title">
-            Bliss OS 14.3 - 06.26.21 Updates
+            Bliss OS 14.3 - FOSS builds - 07.24.21
           </h2>
 
           <div class="post-info">
@@ -97,7 +97,7 @@
                 d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
             </svg>
             <time class="post-time">
-              2021-06-24
+              2021-07-24
             </time>
             <svg fill="none" class="view-icon" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -107,7 +107,7 @@
                 d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z">
               </path>
             </svg>
-            <span id="/bliss-os-143-062621-updates/" class="leancloud_visitors" data-flag-title="Bliss OS 14.3 - 06.26.21 Updates">
+            <span id="/bliss-os-143-foss-builds-072421/" class="leancloud_visitors" data-flag-title="Bliss OS 14.3 - FOSS builds - 07.24.21">
               <span class="leancloud-visitors-count"></span><span> Reads</span>
             </span>
             <span>
@@ -116,27 +116,25 @@
           </div>
 
           
-          <div class="post-feature-image" style="background-image: url('https://i.imgur.com/2cRqHwM.png')">
+          <div class="post-feature-image" style="background-image: url('https://blog.blissos.org/post-images/bliss-os-143-foss-builds-072421.jpg')">
           </div>
           
           <div class="post-content">
-            <h1 id="bliss-os-143-generic-build">Bliss OS 14.3 - Generic Build</h1>
-<p>Since the last update, we have confirmed ARM64 emulation through ChromeOS v91's Houdini, and we have also fixed a number of DRM and Widevine problems, so apps that use those are also working now.<br>
-I also spent a good amount of time updating the new documentation site: https://docs.blissos.org and adding some troubleshooting tips and guides.<br>
-The build I am uploading today will not include Gearlock (no real reason, just didn't select it to include) so I will likely make another update with this combo kernel/mesa including Gearlock later in the week.</p>
+            <h1 id="bliss-os-143-foss-builds">Bliss OS 14.3 - FOSS Builds</h1>
+<p>A somewhat large update this round for 32bit &amp; 64bit PC's. We have also gone live with our website redesign too</p>
 <p><strong>Updates Overview:</strong></p>
 <ul>
-<li>kernel-5.10.46</li>
+<li>kernel-5.10.50</li>
 <li>Updated Mesa 21.1.3</li>
 <li>Updates for Intel graphics</li>
+<li>Updates for MicroG</li>
+<li>Fixes for root (magisk) on 32bit builds</li>
 <li>Lots more, check the changelog</li>
 </ul>
-<p><strong>!!WARNING!!</strong> The builds that use Kernel-5.2+ are no longer compatible with the AUTO_LOAD=old kernel command line option. If you are using this option to boot, then you will not be able to. It will bootloop.</p>
-<p>PLEASE NOTE I recommend everyone testing to also use this in Vulkan mode or boot using gbm_gralloc (which is now the default). Vulkan mode can be done from the Advanced grub menu if you installed using the bootable installer, or if you used a different grub, you will want to add &quot;VULKAN=1&quot; to the grub entry before the word &quot;quiet&quot;. If your device doesn't support Vulkan, you can add &quot;GRALLOC=gbm&quot; to the same place in your grub entry. Sleep states should work fine after that.<br>
-Other bootloop issues can also be solved by booting with GRALLOC=gbm command -line option.</p>
 <h2 id="builds-being-uploaded">Builds being uploaded:</h2>
 <ul>
-<li>BlissOS-14.3-x86_64-202106261907_k-android12-5.10.46-ax86_m-21.1.3_r-x86_emugapps_cros-hd.iso <strong>ARM/ARM64 working</strong></li>
+<li>BlissOS-14.3-x86-202107202034_k-android12-5.10.50-ax86_m-21.1.3_r-x86_foss_cros-hd.iso</li>
+<li>BlissOS-14.3-x86_64-202107161936_k-android12-5.10.50-ax86_m-21.1.3_r-x86_foss_cros-hd.iso</li>
 </ul>
 <p>Known new issues:</p>
 <ul>
@@ -145,10 +143,13 @@ Other bootloop issues can also be solved by booting with GRALLOC=gbm command -li
 <li>Still trying to get Bluetooth working on many devices. .</li>
 </ul>
 <h2 id="download">Download:</h2>
-<p>Website has been updated with most recent build links. Including a couple AOSP 11 builds (Stock &amp; FOSS)<br>
+<p>Website has been updated with most recent build links.<br>
 https://blissos.org</p>
 <h2 id="changelog">Changelog:</h2>
 <p>Check the downloads folder for the build changelog.</p>
+<p><strong>!!WARNING!!</strong> The builds that use Kernel-5.2+ are no longer compatible with the AUTO_LOAD=old kernel command line option. If you are using this option to boot, then you will not be able to. It will bootloop.</p>
+<p>PLEASE NOTE I recommend everyone testing to also use this in Vulkan mode or boot using gbm_gralloc (which is now the default). Vulkan mode can be done from the Advanced grub menu if you installed using the bootable installer, or if you used a different grub, you will want to add &quot;VULKAN=1&quot; to the grub entry before the word &quot;quiet&quot;. If your device doesn't support Vulkan, you can add &quot;GRALLOC=gbm&quot; to the same place in your grub entry. Sleep states should work fine after that.<br>
+Other bootloop issues can also be solved by booting with GRALLOC=gbm command -line option.</p>
 <p>Thanks again 😉</p>
 <p>Head on over to http://blisslabs.org for info on BlissLabs or http://blissos.org for more info on Bliss OS.</p>
 
@@ -159,26 +160,15 @@ https://blissos.org</p>
       <div class="near-post">
         <div>
           
-          <div class="prev-post">
-            <div class="prev">Prev Post</div>
-            <a href="https://blog.blissos.org/post/bliss-os-143-foss-builds-072421/">
-              <h3 class="post-title">
-                <span>
-                  Bliss OS 14.3 - FOSS builds - 07.24.21
-                </span>
-              </h3>
-            </a>
-          </div>
-          
         </div>
         <div>
           
           <div class="next-post">
             <div class="next">Next Post</div>
-            <a href="https://blog.blissos.org/post/bliss-os-143-release/">
+            <a href="https://blog.blissos.org/post/bliss-os-143-062621-updates/">
               <h3 class="post-title">
                 <span>
-                  Bliss OS 14.3 Release
+                  Bliss OS 14.3 - 06.26.21 Updates
                 </span>
               </h3>
             </a>
