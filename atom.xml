@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.blissos.org</id>
     <title>Bliss OS Blog</title>
-    <updated>2021-07-25T01:06:06.960Z</updated>
+    <updated>2021-07-26T00:13:06.150Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.blissos.org"/>
     <link rel="self" href="https://blog.blissos.org/atom.xml"/>
@@ -15,7 +15,7 @@
         <id>https://blog.blissos.org/post/bliss-os-143-foss-builds-072421/</id>
         <link href="https://blog.blissos.org/post/bliss-os-143-foss-builds-072421/">
         </link>
-        <updated>2021-07-22T19:20:21.000Z</updated>
+        <updated>2021-07-22T07:20:21.000Z</updated>
         <content type="html"><![CDATA[<h1 id="bliss-os-143-foss-builds">Bliss OS 14.3 - FOSS Builds</h1>
 <p>A somewhat large update this round for 32bit &amp; 64bit PC's. We have also gone live with our website redesign too</p>
 <p><strong>Updates Overview:</strong></p>
@@ -30,7 +30,7 @@
 <h2 id="builds-being-uploaded">Builds being uploaded:</h2>
 <ul>
 <li>BlissOS-14.3-x86-202107202034_k-android12-5.10.50-ax86_m-21.1.3_r-x86_foss_cros-hd.iso</li>
-<li>**PENDING - **BlissOS-14.3-x86_64-202107161936_k-android12-5.10.50-ax86_m-21.1.3_r-x86_foss_cros-hd.iso</li>
+<li>BlissOS-14.3-x86_64-202107242243_k-android12-5.10.50-ax86_m-21.1.3_r-x86_foss_cros-hd.iso</li>
 </ul>
 <p>Known new issues:</p>
 <ul>
@@ -38,6 +38,7 @@
 <li>Some machines still have volume/sound issues, use 3rd party EQ or volume control.</li>
 <li>Still trying to get Bluetooth working on many devices.</li>
 <li>Magisk is only for root (modules, updates, etc. are not going to work and may break things)</li>
+<li>ARM/ARM64 emulation not working on some AMD CPU's</li>
 </ul>
 <h2 id="download">Download:</h2>
 <p>Website has been updated with most recent build links.<br>
