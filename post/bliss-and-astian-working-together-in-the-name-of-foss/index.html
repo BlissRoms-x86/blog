@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Bliss OS 14.3 - FOSS builds - 07.24.21 | Bliss OS Blog</title>
+<title>Bliss &amp; Astian, working together in the name of FOSS | Bliss OS Blog</title>
 <link rel="shortcut icon" href="https://blog.blissos.org/favicon.ico">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
   integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -88,7 +88,7 @@
         <article class="post">
           
           <h2 class="post-title">
-            Bliss OS 14.3 - FOSS builds - 07.24.21
+            Bliss &amp; Astian, working together in the name of FOSS
           </h2>
 
           <div class="post-info">
@@ -97,7 +97,7 @@
                 d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
             </svg>
             <time class="post-time">
-              2021-07-22
+              2021-08-07
             </time>
             <svg fill="none" class="view-icon" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -107,53 +107,25 @@
                 d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z">
               </path>
             </svg>
-            <span id="/bliss-os-143-foss-builds-072421/" class="leancloud_visitors" data-flag-title="Bliss OS 14.3 - FOSS builds - 07.24.21">
+            <span id="/bliss-and-astian-working-together-in-the-name-of-foss/" class="leancloud_visitors" data-flag-title="Bliss &amp; Astian, working together in the name of FOSS">
               <span class="leancloud-visitors-count"></span><span> Reads</span>
             </span>
             <span>
-              3 min read
+              2 min read
             </span>
           </div>
 
           
-          <div class="post-feature-image" style="background-image: url('https://blog.blissos.org/post-images/bliss-os-143-foss-builds-072421.png')">
+          <div class="post-feature-image" style="background-image: url('https://blog.blissos.org/post-images/bliss-and-astian-working-together-in-the-name-of-foss.png')">
           </div>
           
           <div class="post-content">
-            <h1 id="bliss-os-143-foss-builds">Bliss OS 14.3 - FOSS Builds</h1>
-<p>A somewhat large update this round for 32bit &amp; 64bit PC's. We have also gone live with our website redesign too</p>
-<p><strong>Updates Overview:</strong></p>
-<ul>
-<li>kernel-5.10.50</li>
-<li>Updated Mesa 21.1.3</li>
-<li>Updates for Intel graphics</li>
-<li>Updates for MicroG</li>
-<li>Fixes for root (magisk) on 32bit builds</li>
-<li>Lots more, check the changelog</li>
-</ul>
-<h2 id="builds-being-uploaded">Builds being uploaded:</h2>
-<ul>
-<li>BlissOS-14.3-x86-202107202034_k-android12-5.10.50-ax86_m-21.1.3_r-x86_foss_cros-hd.iso</li>
-<li>BlissOS-14.3-x86_64-202107242243_k-android12-5.10.50-ax86_m-21.1.3_r-x86_foss_cros-hd.iso</li>
-</ul>
-<p>Known new issues:</p>
-<ul>
-<li>Sleep states aren't working right on a few machines. Some can cause SystemUI to restart.</li>
-<li>Some machines still have volume/sound issues, use 3rd party EQ or volume control.</li>
-<li>Still trying to get Bluetooth working on many devices.</li>
-<li>Magisk is only for root (modules, updates, etc. are not going to work and may break things)</li>
-<li>ARM/ARM64 emulation not working on some AMD CPU's</li>
-</ul>
-<h2 id="download">Download:</h2>
-<p>Website has been updated with most recent build links.<br>
-https://blissos.org</p>
-<h2 id="changelog">Changelog:</h2>
-<p>Check the downloads folder for the build changelog.</p>
-<p><strong>!!WARNING!!</strong> The builds that use Kernel-5.2+ are no longer compatible with the AUTO_LOAD=old kernel command line option. If you are using this option to boot, then you will not be able to. It will bootloop.</p>
-<p>PLEASE NOTE I recommend everyone testing to also use this in Vulkan mode or boot using gbm_gralloc (which is now the default). Vulkan mode can be done from the Advanced grub menu if you installed using the bootable installer, or if you used a different grub, you will want to add &quot;VULKAN=1&quot; to the grub entry before the word &quot;quiet&quot;. If your device doesn't support Vulkan, you can add &quot;GRALLOC=gbm&quot; to the same place in your grub entry. Sleep states should work fine after that.<br>
-Other bootloop issues can also be solved by booting with GRALLOC=gbm command -line option.</p>
-<p>Thanks again 😉</p>
-<p>Head on over to http://blisslabs.org for info on BlissLabs or http://blissos.org for more info on Bliss OS.</p>
+            <p>A while back, we partnered up with Astian, the creators of Midori Browser, and have been working with their org to create a joint vision of what FOSS should look like for the Android community.</p>
+<p>Through this, the next addition to our alliance with Astian has started to take form, and we are announcing the rollout of Astian Cloud, with 100GB free storage space with your trial, and soon, Bliss OS users will get 150GB of storage to help promote the new service.</p>
+<p>Astian Cloud and others will soon be rolled out into updates for Bliss OS 11.x &amp; Bliss OS 14.x FOSS editions, but for those that don't want to wait, you can find Astian Suite so far on Google Play (Astian Albums, Astian Camera, Astian Calendar, Astian Cloud, Astian Contacts, Astian Spika &amp; Astian VPN) - https://play.google.com/store/apps/dev?id=7530231193074438608</p>
+<p>The apps are also in the process of being submitted to the mainline FDroid repo as well, so our FOSS builds will soon see some of that love in upcoming releases.</p>
+<p>Check out the full announcement on the Astian blog.  https://astian.org/en/blog/2021/08/05/astian-cloud-blissos-love/</p>
+<p>For the Development community, we would like to announce our plan to create a vendor method for Astian as well so the entire suite can be easily included into AOSP based projects.</p>
 
           </div>
         </article>
@@ -162,26 +134,15 @@ Other bootloop issues can also be solved by booting with GRALLOC=gbm command -li
       <div class="near-post">
         <div>
           
-          <div class="prev-post">
-            <div class="prev">Prev Post</div>
-            <a href="https://blog.blissos.org/post/bliss-and-astian-working-together-in-the-name-of-foss/">
-              <h3 class="post-title">
-                <span>
-                  Bliss &amp; Astian, working together in the name of FOSS
-                </span>
-              </h3>
-            </a>
-          </div>
-          
         </div>
         <div>
           
           <div class="next-post">
             <div class="next">Next Post</div>
-            <a href="https://blog.blissos.org/post/bliss-os-143-062621-updates/">
+            <a href="https://blog.blissos.org/post/bliss-os-143-foss-builds-072421/">
               <h3 class="post-title">
                 <span>
-                  Bliss OS 14.3 - 06.26.21 Updates
+                  Bliss OS 14.3 - FOSS builds - 07.24.21
                 </span>
               </h3>
             </a>
