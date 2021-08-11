@@ -8,7 +8,7 @@ Hello everyone! Here is this month's worth of updates.
 
 # BlissRoms
 
-This week, we’re releasing BlissRoms v14.6. Here's a glimpse of the changes over the past month:
+This week, we’re releasing BlissRoms v14.6. Here's the full changelog:
 
 - Merged August Security Patch
 - Moved battery percentage to the left side of battery icon
@@ -44,7 +44,7 @@ This week, we’re releasing BlissRoms v14.6. Here's a glimpse of the changes ov
 - Added AboutBliss
 - Several under-the-hood optimizations
 
-Bugs Squashed:
+We also fixed the following bugs:
 - Fixed battery text view
 - Fixed NavBar Styles
 - Fixed AppLock issues
@@ -55,14 +55,13 @@ Bugs Squashed:
 - Miscellaneous fixes
 
 With this release, we support the following devices:
-
 - Asus ROG 3 (obiwan)
 - Redmi Note 7 Pro (violet)
 
-Sadly following devices are dropped from Official Support:
+Unfortunately, starting from this release these devices are no longer supported. No builds will be available for the following devices:
 - Mi 9T (davinci)
 - Redmi Note 5 / Redmi 5 Plus (vince)
 
-If any maintainers are willing to support these devices, they can go throught requirements and apply for maintainership.
+If any maintainers are willing to support these devices, please review the requirements apply for our maintainership program.
 
-That’s it for this week! Happy flashing!
+That’s all for this week! Happy flashing!
