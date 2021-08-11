@@ -57,9 +57,9 @@ We also fixed the following bugs:
 With this release, we support the following devices:
 - Asus ROG 3 (obiwan)
 - Redmi Note 7 Pro (violet)
+- Mi 9T (davinci)
 
 Unfortunately, starting from this release these devices are no longer supported. No builds will be available for the following devices:
-- Mi 9T (davinci)
 - Redmi Note 5 / Redmi 5 Plus (vince)
 
 If any maintainers are willing to support these devices, please review the requirements apply for our maintainership program.
