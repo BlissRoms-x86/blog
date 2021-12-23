@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.blissos.org</id>
     <title>Bliss OS Blog</title>
-    <updated>2021-08-09T22:57:46.921Z</updated>
+    <updated>2021-12-23T19:19:55.669Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.blissos.org"/>
     <link rel="self" href="https://blog.blissos.org/atom.xml"/>
@@ -10,6 +10,55 @@
     <logo>https://blog.blissos.org/images/avatar.png</logo>
     <icon>https://blog.blissos.org/favicon.ico</icon>
     <rights>All rights reserved 2021, Bliss OS Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[What a Blissful year this was]]></title>
+        <id>https://blog.blissos.org/post/what-a-blissful-year-this-was/</id>
+        <link href="https://blog.blissos.org/post/what-a-blissful-year-this-was/">
+        </link>
+        <updated>2021-12-22T15:52:36.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>Non-Profit Growth</strong></p>
+<p>Over the last year, there has been a lot of change within the Bliss infrastructure. Some of the changes happened with moving the non-profit we initially started (Bliss Family of ROMs) to a new name (BlissLabs), along with narrowing our mission a bit and restructuring as a meritocracy based org, much like Apache.org is structured. This allowed us to give the separate projects the freedom and resources they needed to grow and succeed further.<br>
+With those changes in place, we setup each project with the ability to collect donations and sponsorships, allowing each project to have an actual funding budget for the first time.</p>
+<p>The BlissLabs website has been updated to reflect many of the changes to our org so far. You can find that at: https://blisslabs.org</p>
+<p><strong>Adding a New Project</strong></p>
+<p>This year we also teamed up with Waydroid projects Lead Developer, Erfan Abdi, and helped on a few things with that project, as well as allowing it to become the first project on OpenCollective underneath the new BlissLabs fiscal host. We have also since added Bliss OS inderneath that host as well. One of the benefits to helping out and learn on a project like Waydroid, is that I learn a lot from the project and it's developer(s), and those lessons translate directly to Android-x86/Android-Generic Project, and that is the work that makes it into Bliss OS builds as well as Waydroid too.</p>
+<p><strong>Waydroid</strong><br>
+<img src="https://blog.blissos.org/post-images/1640286168733.jpg" alt="" loading="lazy"><br>
+With Waydroid on Android 10 working well, and only a few minor standing issues left, I started learning what would be needed to allow for an old idea I had back in Android-x86 7.1 days, where we use a bare minimum Linux base, with a mainstream kernel, like Ubuntu, and have that boot to Android. Allowing the ease of Linux for drivers/maintainence and the GUI of Android for the user-facing side. I can picture the automotove industry finding good use of this.<br>
+With that idea layed out, we started to work on defining how we would do it, and we have a couple good starts towards some solutions:</p>
+<ul>
+<li>Ubuntu/Waydroid hybrid builds - A traditional Ubuntu Unity based initial UI, paired with Waydroid installed by default. Allowing the user to use Waydroid within Unity, or selecting one of a few other Waydroid only sessions (using mutter, weston, etc.) for a central focus on the Android experience.<br>
+Those are available on our &quot;Blissos-dev&quot; Sourceforge here:<br>
+https://sourceforge.net/projects/blissos-dev/files/waydroid/linux/alpha/<br>
+Pay attention to the readme within each releases folder. It has the info needed to login and use the builds.</li>
+<li>A lightweight Debian integration that boots to terminal after installed, and has command line shortcuts and scripts that allow to sign on, start a linux/waydroid session, etc.<br>
+Those are available on @PieroProietti's &quot;Penguins-Eggs&quot; Sourceforge here:<br>
+https://sourceforge.net/projects/penguins-eggs/files/iso/debian/<br>
+The bookwork and bullseye folders each have a &quot;waydroid&quot; build. Pay attention to the readme within each releases folder. It has the info needed to login and use the builds.</li>
+</ul>
+<p>We are also working on growing the Waydroid team, and bringing it up to Android 11+, but that is an ongoing process and the Android 10 version still has new pull-requests and issues filed weekly. So still very much &quot;in development&quot;. Great project though. Check out https://waydro.id to learn more.</p>
+<p>Gallery:<br>
+<img src="https://blog.blissos.org/post-images/1640286048088.jpg" alt="" loading="lazy"><br>
+<img src="https://blog.blissos.org/post-images/1640286105686.jpg" alt="" loading="lazy"><br>
+<img src="https://blog.blissos.org/post-images/1640286117997.jpg" alt="" loading="lazy"><br>
+<img src="https://blog.blissos.org/post-images/1640286129923.jpg" alt="" loading="lazy"><br>
+<img src="https://blog.blissos.org/post-images/1640286144207.jpg" alt="" loading="lazy"></p>
+<p><strong>Bliss OS</strong><br>
+<img src="https://blog.blissos.org/post-images/1640286183418.jpeg" alt="" loading="lazy"><br>
+We have had success using Bliss OS as the testbed for Android-x86 commits this past year with Android 11. Many of those commits are on their way upstream to Android-x86 project. And we have also gotten a good start on an Android 12 version too, using many of the changes from Android-x86 team, plus a few of our own.</p>
+<p>For the Android 9 builds, our own @hmtheboy154 has taken on updating Bliss OS 11.x, and including many of the advancements made over the past year.</p>
+<p>Gallery (Android 12):<br>
+<img src="https://blog.blissos.org/post-images/1640286198160.jpeg" alt="" loading="lazy"><br>
+<img src="https://blog.blissos.org/post-images/1640286205864.jpeg" alt="" loading="lazy"></p>
+<p><strong>Android-Generic Project</strong></p>
+<p>This year on AG, we also saw that project start to take shape a bit more. Some of the methods used in Waydroid and other projects directly translated to allowing AG to release it's &quot;unified&quot; tree, where we include the base changes and options needed to compile Android 10, 11, &amp; 12 builds from the same branch. This saves me a ton of work there as I can now focus on expanding the options and fuctionality of that system and allow others to use it easier.</p>
+<p><strong>Boringdroid</strong></p>
+<p>With Waydroid coming onto the scene this year, we got the opportunity to include some of the basic features from Boringdroid into its Android 10 and Android 11 variants. This is a huge success for Boringdroid and shows that there is a good market for including into builds as a Desktop UI solution.</p>
+<p>We are looking forward to what this next year brings, watching all the ideas Boringdroid Lead Developer @utzcoz brings to the table, things are going to be exciting!</p>
+<p><strong>To Sum It Up</strong></p>
+<p>We are looking forward to the new year ahead and have a lot in store for the open-source Android on PC community. Thank you all for helping share our work and keep being an awesome group of users &amp; developers.</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bliss & Astian, working together in the name of FOSS]]></title>
         <id>https://blog.blissos.org/post/bliss-and-astian-working-together-in-the-name-of-foss/</id>
