@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.blissos.org</id>
     <title>Bliss OS Blog</title>
-    <updated>2021-12-23T19:20:52.285Z</updated>
+    <updated>2021-12-23T19:29:51.808Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.blissos.org"/>
     <link rel="self" href="https://blog.blissos.org/atom.xml"/>
@@ -15,11 +15,11 @@
         <id>https://blog.blissos.org/post/what-a-blissful-year-this-was/</id>
         <link href="https://blog.blissos.org/post/what-a-blissful-year-this-was/">
         </link>
-        <updated>2021-12-22T15:52:36.000Z</updated>
+        <updated>2021-12-22T02:52:36.000Z</updated>
         <content type="html"><![CDATA[<p><strong>Non-Profit Growth</strong></p>
 <p>Over the last year, there has been a lot of change within the Bliss infrastructure. Some of the changes happened with moving the non-profit we initially started (Bliss Family of ROMs) to a new name (BlissLabs), along with narrowing our mission a bit and restructuring as a meritocracy based org, much like Apache.org is structured. This allowed us to give the separate projects the freedom and resources they needed to grow and succeed further.<br>
 With those changes in place, we setup each project with the ability to collect donations and sponsorships, allowing each project to have an actual funding budget for the first time.</p>
-<p>The BlissLabs website has been updated to reflect many of the changes to our org so far. You can find that at: https://blisslabs.org</p>
+<p>The BlissLabs website has been updated to reflect many of the changes to our org so far. You can find that at:  <img src="https://blisslabs.org" alt="blisslabs.org" loading="lazy"></p>
 <p><strong>Adding a New Project</strong></p>
 <p>This year we also teamed up with Waydroid projects Lead Developer, Erfan Abdi, and helped on a few things with that project, as well as allowing it to become the first project on OpenCollective underneath the new BlissLabs fiscal host. We have also since added Bliss OS inderneath that host as well. One of the benefits to helping out and learn on a project like Waydroid, is that I learn a lot from the project and it's developer(s), and those lessons translate directly to Android-x86/Android-Generic Project, and that is the work that makes it into Bliss OS builds as well as Waydroid too.</p>
 <p><strong>Waydroid</strong><br>
@@ -29,14 +29,16 @@ With that idea layed out, we started to work on defining how we would do it, and
 <ul>
 <li>Ubuntu/Waydroid hybrid builds - A traditional Ubuntu Unity based initial UI, paired with Waydroid installed by default. Allowing the user to use Waydroid within Unity, or selecting one of a few other Waydroid only sessions (using mutter, weston, etc.) for a central focus on the Android experience.<br>
 Those are available on our &quot;Blissos-dev&quot; Sourceforge here:<br>
-https://sourceforge.net/projects/blissos-dev/files/waydroid/linux/alpha/<br>
-Pay attention to the readme within each releases folder. It has the info needed to login and use the builds.</li>
+<img src="https://sourceforge.net/projects/blissos-dev/files/waydroid/linux/alpha/" alt="blissos-dev" loading="lazy"></li>
+</ul>
+<p>Pay attention to the readme within each releases folder. It has the info needed to login and use the builds.</p>
+<ul>
 <li>A lightweight Debian integration that boots to terminal after installed, and has command line shortcuts and scripts that allow to sign on, start a linux/waydroid session, etc.<br>
 Those are available on @PieroProietti's &quot;Penguins-Eggs&quot; Sourceforge here:<br>
-https://sourceforge.net/projects/penguins-eggs/files/iso/debian/<br>
-The bookwork and bullseye folders each have a &quot;waydroid&quot; build. Pay attention to the readme within each releases folder. It has the info needed to login and use the builds.</li>
+<img src="https://sourceforge.net/projects/penguins-eggs/files/iso/debian/" alt="Penguins-Eggs" loading="lazy"></li>
 </ul>
-<p>We are also working on growing the Waydroid team, and bringing it up to Android 11+, but that is an ongoing process and the Android 10 version still has new pull-requests and issues filed weekly. So still very much &quot;in development&quot;. Great project though. Check out https://waydro.id to learn more.</p>
+<p>The bookwork and bullseye folders each have a &quot;waydroid&quot; build. Pay attention to the readme within each releases folder. It has the info needed to login and use the builds.</p>
+<p>We are also working on growing the Waydroid team, and bringing it up to Android 11+, but that is an ongoing process and the Android 10 version still has new pull-requests and issues filed weekly. So still very much &quot;in development&quot;. Great project though. Check out <img src="https://waydro.id" alt="waydro.id" loading="lazy"> to learn more.</p>
 <p>Gallery:<br>
 <img src="https://blog.blissos.org/post-images/1640286048088.jpg" alt="" loading="lazy"><br>
 <img src="https://blog.blissos.org/post-images/1640286105686.jpg" alt="" loading="lazy"><br>
