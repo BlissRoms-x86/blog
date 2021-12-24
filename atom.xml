@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.blissos.org</id>
     <title>Bliss OS Blog</title>
-    <updated>2021-12-23T20:02:47.998Z</updated>
+    <updated>2021-12-24T04:42:25.599Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.blissos.org"/>
     <link rel="self" href="https://blog.blissos.org/atom.xml"/>
@@ -15,7 +15,7 @@
         <id>https://blog.blissos.org/post/what-a-blissful-year-this-was/</id>
         <link href="https://blog.blissos.org/post/what-a-blissful-year-this-was/">
         </link>
-        <updated>2021-12-20T11:52:36.000Z</updated>
+        <updated>2021-12-19T22:52:36.000Z</updated>
         <content type="html"><![CDATA[<p><strong>Non-Profit Growth</strong></p>
 <p>Over the last year, there has been a lot of change within the Bliss infrastructure. Some of the changes happened with moving the non-profit we initially started (Bliss Family of ROMs) to a new name (BlissLabs), along with narrowing our mission a bit and restructuring as a meritocracy based org, much like Apache.org is structured. This allowed us to give the separate projects the freedom and resources they needed to grow and succeed further.<br>
 With those changes in place, we setup each project with the ability to collect donations and sponsorships, allowing each project to have an actual funding budget for the first time.</p>
@@ -56,11 +56,15 @@ We have had success using Bliss OS as the testbed for Android-x86 commits this p
 <p>Gallery (Android 12):<br>
 <img src="https://blog.blissos.org/post-images/1640286198160.jpeg" alt="" loading="lazy"><br>
 <img src="https://blog.blissos.org/post-images/1640286205864.jpeg" alt="" loading="lazy"></p>
+<p>Check out <a href="https://blissos.org">blissos.org</a> to learn more.</p>
 <p><strong>Android-Generic Project</strong></p>
-<p>This year on AG, we also saw that project start to take shape a bit more. Some of the methods used in Waydroid and other projects directly translated to allowing AG to release it's &quot;unified&quot; tree, where we include the base changes and options needed to compile Android 10, 11, &amp; 12 builds from the same branch. This saves me a ton of work there as I can now focus on expanding the options and fuctionality of that system and allow others to use it easier.</p>
+<p>This year on AG, we also saw that project start to take shape a bit more. Some of the methods used in Waydroid and other projects directly translated to allowing AG to release it's &quot;unified&quot; tree, where we include the base changes and options needed to compile Android 10, 11, &amp; 12 builds from the same branch. This saves me a ton of work there as I can now focus on expanding the options and fuctionality of that system and allow others to use it easier.<br>
+We also started promoting the efforts of the community projects that use AG this year with <a href="https://forum.xda-developers.com/t/beta-11-projectsakura-x86-for-pcs-unofficial.4329533/">Project Sakura</a> and we also added a Community Flavors section to the website.<br>
+Check out <a href="https://android-generic.github.io">android-generic project</a> to learn more.</p>
 <p><strong>Boringdroid</strong></p>
 <p>With Waydroid coming onto the scene this year, we got the opportunity to include some of the basic features from Boringdroid into its Android 10 and Android 11 variants. This is a huge success for Boringdroid and shows that there is a good market for including into builds as a Desktop UI solution.</p>
-<p>We are looking forward to what this next year brings, watching all the ideas Boringdroid Lead Developer @utzcoz brings to the table, things are going to be exciting!</p>
+<p>We are looking forward to what this next year brings, watching all the ideas Boringdroid Lead Developer @utzcoz brings to the table, things are going to be exciting!<br>
+Check out <a href="https://boringdroid.github.io">Boringdroid project</a> to learn more.</p>
 <p><strong>To Sum It Up</strong></p>
 <p>We are looking forward to the new year ahead and have a lot in store for the open-source Android on PC community. Thank you all for helping share our work and keep being an awesome group of users &amp; developers.</p>
 ]]></content>
