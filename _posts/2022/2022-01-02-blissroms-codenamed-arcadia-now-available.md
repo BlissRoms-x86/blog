@@ -32,6 +32,7 @@ Here is the list of currently supported devices for BlissRoms Arcadia:
     Xiaomi Poco M3 (lemon)
     Xiaomi Redmi 4X (santoni)
     Xiaomi Redmi Note 7 (Lavender)
+    Xiaomi Redmi Note 7 Pro (Violet)
     Xiaomi Redmi Note 9S/9 Pro/Pro Max / POCO M2 Pro (miatoll)
     Xiaomi Redmi K20 Pro / Mi 9T Pro
 
