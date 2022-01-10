@@ -24,6 +24,7 @@ const config = {
         docs: false,
         blog: {
           showReadingTime: true,
+          routeBasePath: '/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
