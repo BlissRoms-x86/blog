@@ -37,10 +37,6 @@ const config = {
     ({
       navbar: {
         title: 'BlissRoms Blog',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
       },
       footer: {
         style: 'dark',
