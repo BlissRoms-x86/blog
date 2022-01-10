@@ -11,7 +11,6 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
   organizationName: 'BlissRoms',
   projectName: 'blog.blissroms.org',
 
