@@ -1,41 +1,9 @@
-# Website
-
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
-
-### Installation
-
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+<img src="https://imgur.com/jmiT0ss.png">
+<p align="center">
+<a href="https://blissroms.org">Website</a> |
+<a href="https://downloads.blissroms.org">Download</a> |
+<a href="https://www.paypal.com/donate/?hosted_button_id=J5SLZ7MQNCT24">Donate</a> |
+<a href="https://blog.blissroms.org">Blog</a> |
+<a href="https://docs.blissroms.org">Documentation</a> |
+<a href="https://www.instagram.com/blissroms">Instagram</a> |
+<a href="https://t.me/BlissROM_Updates">Telegram</a>
