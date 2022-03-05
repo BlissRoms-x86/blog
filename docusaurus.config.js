@@ -73,6 +73,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      googleAdsense: {
+        dataAdClient: 'ca-pub-7639560510014441',
+      },
     }),
 };
 
