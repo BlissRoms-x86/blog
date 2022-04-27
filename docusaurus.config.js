@@ -1,3 +1,6 @@
+module.exports = {
+  presets: [require.resolve('@docusaurus/core/lib/babel/preset')],
+};
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
@@ -35,9 +38,16 @@ const config = {
     ],
   ],
 
+  plugins: [
+    'docusaurus-plugin-google-adsense'
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      googleAdsense: {
+        dataAdClient: 'ca-pub-7639560510014441',
+      },
       navbar: {
         title: 'BlissRoms Blog',
       },
