@@ -1,3 +1,7 @@
+module.exports = {
+  presets: [require.resolve('@docusaurus/core/lib/babel/preset')],
+};
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -30,13 +34,24 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: '7639560510014441',
+          anonymizeIP: true,
+        },
       }),
     ],
+  ],
+
+  plugins: [
+    'docusaurus-plugin-google-adsense'
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      googleAdsense: {
+        dataAdClient: 'ca-pub-7639560510014441',
+      },
       navbar: {
         title: 'BlissOS Blog',
       },
