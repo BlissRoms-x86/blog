@@ -25,8 +25,8 @@ jobs:
       # Install and build BlissRoms Blog
       - name: Build BlissRoms Blog
         run: |
-          npm install 
-          npm run build
+          yarn install 
+          yarn run build
 
       - name: Deploy to GitHub Pages
         if: success()
