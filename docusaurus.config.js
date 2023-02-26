@@ -9,13 +9,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'BlissRoms Blog',
-  url: 'https://blog.blissroms.org',
+  title: 'BlissOS Blog',
+  url: 'https://blog.blissos.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  organizationName: 'BlissRoms',
-  projectName: 'blog.blissroms.org',
+  organizationName: 'BlissRoms-x86',
+  projectName: 'blog',
 
   presets: [
     [
@@ -49,7 +49,7 @@ const config = {
         dataAdClient: 'ca-pub-7639560510014441',
       },
       navbar: {
-        title: 'BlissRoms Blog',
+        title: 'BlissOS Blog',
       },
       footer: {
         style: 'dark',
@@ -59,7 +59,7 @@ const config = {
             items: [
               {
                 label: 'Website',
-                href: 'https://blissroms.org/',
+                href: 'https://blissos.org/',
               },
               {
                 label: 'Instagram',
