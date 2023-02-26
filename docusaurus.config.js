@@ -59,37 +59,133 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
+            title: 'Websites',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'BlissOS Website',
+                href: 'https://blissos.org/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'BlissRoms Website',
+                href: 'https://blissroms.org/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'BlissLabs Website',
+                href: 'https://blisslabs.org/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'BlissLabs Socials',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'BlissLabs Discord',
+                href: 'https://discord.com/invite/F9n5gbdNy2',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'BlissLabs Facebook',
+                href: 'https://www.facebook.com/BlissFamilyOfROMs/',
+              },
+              {
+                label: 'BlissLabs LinkedIn',
+                href: 'https://www.linkedin.com/company/stayblissful',
+              },
+            ],
+          },
+          {
+            title: 'BlissOS Social',
+            items: [
+              {
+                label: 'BlissOS Instagram',
+                href: 'https://instagram.com/blissos_org',
+              },
+              {
+                label: 'BlissOS Reddit',
+                href: 'https://www.reddit.com/r/BlissOS',
+              },
+              {
+                label: 'BlissOS Twitter',
+                href: 'https://twitter.com/blissos_org',
+              },
+              {
+                label: 'BlissOS Telegram',
+                href: 'https://t.me/blissx86',
+              },           
+            ],
+          },
+          {
+            title: 'BlissRoms Social',
+            items: [
+              {
+                label: 'BlissRoms Facebook',
+                href: 'https://www.facebook.com/BlissROMs/',
+              },
+              {
+                label: 'BlissRoms Instagram',
+                href: 'https://instagram.com/blissroms',
+              },
+              {
+                label: 'BlissRoms Reddit',
+                href: 'https://www.reddit.com/r/BlissRoms',
+              },
+              {
+                label: 'BlissRoms Twitter',
+                href: 'https://twitter.com/bliss_roms',
+              },
+              {
+                label: 'BlissRoms Telegram',
+                href: 'https://t.me/Team_Bliss_Community',
+              },   
+            ],
+          },
+          {
+            title: 'Sources',
+            items: [
+              {
+                label: 'Android-Generic Gitlab',
+                to: 'https://github.com/android-generic/vendor_ag',
+              },
+              {
+                label: 'BlissRoms Gerrit Review',
+                to: 'https://review.blissos.com',
+              },
+              {
+                label: 'BlissRoms Github',
+                to: 'https://github.com/BlissRoms',
+              },
+              {
+                label: 'BlissRoms-Devices Github',
+                to: 'https://github.com/BlissRoms-Devices',
+              },
+              {
+                label: 'BlissRoms-PINE64 Github',
+                to: 'https://github.com/BlissRoms-pine64',
+              },
+              {
+                label: 'BlissOS Github',
+                to: 'https://github.com/BlissRoms-x86',
+              },              
+            ],
+          },
+          {
+            title: 'Developers',
+            items: [
+              {
+                label: 'BlissOS Docs',
+                to: 'https://docs.blissos.org/',
+              },
+              {
+                label: 'BlissRoms Docs',
+                href: 'https://docs.blissroms.org/',
+              },
+              {
+                label: 'Android-Generic Docs',
+                href: 'https://android-generic-project.gitbook.io/documentation/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} BlissLabs, All rights reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://blisslabs.org/">BlissLabs</a>, All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
