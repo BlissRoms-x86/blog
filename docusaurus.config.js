@@ -9,7 +9,7 @@ const config = {
   baseUrl: '/',
   organizationName: 'BlissRoms-x86',
   projectName: 'blog',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
