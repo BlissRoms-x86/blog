@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_1=self.webpackChunkblog_1||[]).push([[964],{8866:s=>{s.exports=JSON.parse('[{"label":"blissos","permalink":"/tags/blissos","count":1},{"label":"android-generic","permalink":"/tags/android-generic","count":1},{"label":"bliss-x86","permalink":"/tags/bliss-x-86","count":1}]')}}]);
