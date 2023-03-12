@@ -1,3 +1,12 @@
+---
+slug: what-can-open-source-do-for-you
+title: "What can open source do for you?"
+authors: [electrikjesus]
+date: 2023-03-11
+comments: true
+tags: [blissos,android-generic,bliss-x86]
+---
+
 # What can open source do for you?
 
 As a business, the typical way to do things is to file for patents, and protect your product or idea, and your product team produces the development design and manages updating the product for its lifecycle. The downside to that is that only your team has the ability to spot its flaws, make it better, or see other avenues where it could be used. This is not the case with an open-source project lifecycle. The product you develop is open to the community to use, inspect and improve upon. This helps accelerate the development of the idea or product by allowing open-innovation to take place.
