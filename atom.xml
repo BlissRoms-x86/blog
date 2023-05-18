@@ -2,10 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.blissos.org/</id>
     <title>BlissOS Blog Blog</title>
-    <updated>2023-03-11T00:00:00.000Z</updated>
+    <updated>2023-05-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.blissos.org/"/>
     <subtitle>BlissOS Blog Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[[Pilot] EIDU and Bliss OS Go]]></title>
+        <id>https://blog.blissos.org/pilot-eidu-and-bliss-os-go</id>
+        <link href="https://blog.blissos.org/pilot-eidu-and-bliss-os-go"/>
+        <updated>2023-05-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Collaboration announcement for our partnership with EIDU on a polit program]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="alt text" src="/assets/images/eidu-pilot-92665ea12cdb84acded5d04670142fc3.png" title="EIDU + Bliss OS Go" width="1600" height="900" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-collaborations">New Collaborations<a href="#new-collaborations" class="hash-link" aria-label="Direct link to New Collaborations" title="Direct link to New Collaborations">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="pilot-eidu---taifa-elimutab">[pilot]<!-- --> EIDU - Taifa ElimuTab<a href="#pilot-eidu---taifa-elimutab" class="hash-link" aria-label="Direct link to pilot-eidu---taifa-elimutab" title="Direct link to pilot-eidu---taifa-elimutab">​</a></h3><p>Bliss Co-Labs and <a href="https://eidu.com/" target="_blank" rel="noopener noreferrer">EIDU</a>, an organization that builds innovative solutions to digitize education in low and middle-income countries at scale, have partnered to bring an Android Go 12.1 variation of Bliss OS to the aging Windows tablets used by Kenya public primary schools. The pilot program aims to allow millions of devices a second-life through the use of Bliss OS, which is specifically tailored to the devices' hardware and capabilities.</p><p>Bliss OS is a lightweight operating system that is designed to run on x86 Windows &amp; Linux devices. It is based on Android, but it has been optimized for performance and battery life. Bliss OS Go is a version of Bliss OS that is designed for lower-powered devices, such as the Intel Atom based Windows tablets that are used in Kenya.</p><p>The pilot program will test the feasibility of deploying Bliss OS Go on the Windows tablets. If the pilot is successful, it could lead to the deployment of Bliss OS Go on millions of devices, which would provide students in Kenya with access to a more reliable and affordable educational platform.</p><p>Here are some of the benefits of using Bliss OS Go on the Windows tablets:</p><ul><li>Improved performance: Bliss OS Go is designed to run on low-powered devices, so it can provide a significant performance boost over Windows. This will make it easier for students to use the devices for learning.</li><li>Longer battery life: Bliss OS Go is also designed to conserve battery life, so students can use the devices for longer periods of time without having to worry about running out of power.</li><li>More affordable: Bliss OS Go is a free and open-source operating system, so it is more affordable than Windows. This will make it possible for schools to deploy Bliss OS Go on more devices, which will benefit more students.</li></ul><p>We believe that Bliss OS Go has the potential to make a significant impact on education in Kenya. We are excited to partner with EIDU on this pilot program and we look forward to seeing the results.</p>]]></content>
+        <author>
+            <name>Jon West</name>
+            <uri>https://github.com/electrikjesus</uri>
+        </author>
+        <category label="eidu" term="eidu"/>
+        <category label="blissos" term="blissos"/>
+        <category label="android-generic" term="android-generic"/>
+        <category label="bliss-x86" term="bliss-x86"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What can open source do for you?]]></title>
         <id>https://blog.blissos.org/what-can-open-source-do-for-you</id>
