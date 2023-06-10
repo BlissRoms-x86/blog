@@ -39,6 +39,8 @@ Here are some additional details about the features of Bliss OS Go:
 
 ### More Info
 
+**Warning**, due to the low-spec nature of the devices we are targeting with these builds, we do not include native-bridge by default on Bliss OS Go builds. 
+
 Downloads can be found on Sourceforge: https://sourceforge.net/projects/blissos-dev/files/BlissOS-Go/FOSS/20230519/
 
 Configuration documentation for some of the features found in Bliss OS Go can be found on our docs site:
