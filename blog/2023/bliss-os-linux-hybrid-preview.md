@@ -1,6 +1,6 @@
 ---
 slug: bliss-os-linux-hybrid-preview
-title: "[announcement] Bliss OS Linux Hybrid Preview"
+title: "[announcement] Bliss OS Linux Hybrid Preview (Bliss OS Go edition)"
 authors: [electrikjesus]
 description: Bliss OS Linux Hybrid Preview (Bliss OS Go edition)
 img: # Add image post (optional)
