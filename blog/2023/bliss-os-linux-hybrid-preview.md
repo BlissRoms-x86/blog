@@ -60,4 +60,4 @@ Reboot (hitting esc once when rebooting to show Grub menu, and select Bliss OS, 
 
 ## Notes:
 
-Autologin is enabled, will launch last leaded session choice from Login screen
+Autologin is enabled, will launch last loaded session choice from Login screen
