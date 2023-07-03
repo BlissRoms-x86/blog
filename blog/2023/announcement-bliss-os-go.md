@@ -3,7 +3,7 @@ slug: announcement-bliss-os-go
 title: "[announcement] Bliss OS Go preview"
 authors: [electrikjesus]
 description: Announcement for the Bliss OS Go preview
-img: /assets/blissos-go.png # Add image post (optional)
+img: assets/blissos-go.png # Add image post (optional)
 date: 2023-06-08
 comments: true
 tags: [android-go,blissos,android-generic,bliss-x86]
@@ -11,7 +11,7 @@ tags: [android-go,blissos,android-generic,bliss-x86]
 
 # Collaboration Announcement
 
-![alt text](/assets/blissos-go.png "Announcement - Bliss OS Go Preview")
+![alt text](assets/blissos-go.png "Announcement - Bliss OS Go Preview")
 
 ## [Announcement] Bliss OS Go (Preview Release)
 

@@ -3,7 +3,7 @@ slug: pilot-eidu-and-bliss-os-go
 title: "[Pilot] EIDU and Bliss OS Go"
 authors: [electrikjesus]
 description: Collaboration announcement for our partnership with EIDU on a polit program
-img: /assets/eidu-pilot.png # Add image post (optional)
+img: assets/eidu-pilot.png # Add image post (optional)
 date: 2023-05-18
 comments: true
 tags: [eidu,blissos,android-generic,bliss-x86]
@@ -11,7 +11,7 @@ tags: [eidu,blissos,android-generic,bliss-x86]
 
 # Collaboration Announcement
 
-![alt text](/assets/eidu-pilot.png "EIDU + Bliss OS Go")
+![alt text](assets/eidu-pilot.png "EIDU + Bliss OS Go")
 
 ## New Collaborations
 
