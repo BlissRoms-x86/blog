@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_1=self.webpackChunkblog_1||[]).push([[7345],{7823:e=>{e.exports=JSON.parse('{"permalink":"/tags/android-linux","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

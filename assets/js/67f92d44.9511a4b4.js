@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_1=self.webpackChunkblog_1||[]).push([[6524],{2617:s=>{s.exports=JSON.parse('{"label":"blissoslinux","permalink":"/tags/blissoslinux","allTagsPath":"/tags","count":1}')}}]);

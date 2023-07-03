@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_1=self.webpackChunkblog_1||[]).push([[4048],{5240:a=>{a.exports=JSON.parse('{"label":"android-go","permalink":"/tags/android-go","allTagsPath":"/tags","count":2}')}}]);
