@@ -1,4 +1,4 @@
-<img src="assets/banner.png">
+<img src="https://i.ibb.co/0VWm25C/Colors-2-OS.png">
 <p align="center">
 <a href="https://https://blissos.org">Website</a> |
 <a href="https://sourceforge.net/projects/blissos-x86">Download</a> |
