@@ -48,7 +48,7 @@ Please join our Discord or Telegram to gain access to the new test builds of Bli
 In BlissOS Go builds, there are some options that are being blocked by Android. Most notably the option to allow apps to draw on other apps. You will see this text when you are trying to grant the permission :
 
 
-![alt_text](assets/bliss-updates-1123/image1.jpg "image_tooltip")
+![alt_text](assets/bliss-updates-1123/image1.jpg "Draw over apps warning")
 
 
 With the latest update of BlissOS, we've included a switch in Blissify Settings to allow bypassing this restriction. So now you are able to use apps like Smart Dock or Taskbar just like the usual generic version. The new option will be available in all of the upcoming BlissOS releases including 14, 15 and 16.
