@@ -65,9 +65,7 @@ The other will be coming in the form of OTA updates for Bliss OS. These updates 
 * System Rollbacks - Native bootctrl behavior
 * Update server controlled by our own [Shipper Stack](https://github.com/shipperstack)
 
-But there is one major downside that we would like to address, with the new OTA feature we won't be able to ship the system image with any other type of images other than system.img. Meaning that there will be no more system.sfs (system.img inside a SquashFS image) or system.efs (system.img inside a EROFS image). We will have to ship with a system.img that is using SquashFS or EROFS instead.
-
-So, what will this affect you ? Usually on BlissOS or Android-x86 in general, we build the system.img in EXT4, but then we put it inside system.sfs to make the image lighter because of SquashFS compression. And then if you want the system to be in read-write because it's EXT4, you can just extract system.sfs out, easy as that. However, the new OTA changes came with a challenge that restricted us to only build system.img, giving us no choice but to initially not build it with SquashFS or EROFS. We have since worked around those issues, but the early beta builds might not have all those fixes included just yet.
+We have worked around a few issues with shipping sfs/erofs images and will keep the community posted on the progress. The early beta builds might not have all those fixes included just yet, so just be aware if you are trying to mount as read/write.
 
 
 ## Grub updates to v2.06 - also rolling out soon
