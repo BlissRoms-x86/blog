@@ -29,7 +29,7 @@ We have started to push some of the source for our Bliss Bass (Broad Apparatus S
 * Tablet Go - IOT/IIOT variant
 * More on its way
 
-There will be a new website created for these builds, and they will still be free to download and test, although the initial test builds will come watermatked. This will ensure that we are able to produce these test builds for the public while still retaining our licensing rights for it. 
+There will be a new website created for these builds, and they will still be free to download and test, although the initial test builds will come watermarked. This will ensure that we are able to produce these test builds for the public while still retaining our licensing rights for it. 
 
 We are still collecting valuable information from our customers and would love to hear what our users think of this approach. Please leave a comment and let us know your thoughts. 
 
