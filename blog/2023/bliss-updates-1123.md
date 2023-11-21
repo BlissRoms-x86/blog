@@ -1,7 +1,7 @@
 ---
 slug: bliss-updates-1123
 title: "Bliss OS - Development Updates 11-23"
-authors: [electrikjesus,hmtheboy154]
+authors: [electrikjesus]
 description: BlissOS Updates
 img: assets/blissos-updates-2023-11-20.png # Add image post (optional)
 date: 2023-11-20
@@ -38,7 +38,7 @@ We are still collecting valuable information from our customers and would love t
 
 There are a few important changes that we are gearing up for on Bliss OS. First, on Bliss OS 14.x & 15.x, we will be shipping with Kernel 6.1, this includes our Surface builds. Second change will be for BlissOS 14.x, 15.x & 16.x (Generic/Surface), and that will be a switch to a new Audio HAL made by Intel’s Project Celadon
 
-Switching to the new Audio HAL will be an important change for us, so we would like to ask everyone to help us to test these new HAL so that we can have feedback and improve it further.
+Switching to the new Audio HAL will be an important change for us, so we would like to ask everyone to help us to test these new HAL so that we can have feedback and improve it further. Once tested, we will update the builds to include the new audio HAL changes. 
 
 Please join our Discord or Telegram to gain access to the new test builds of BlissOS 15.8.8 with Kernel 6.1.36 and the new Audio HAL.
 
