@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.blissos.org/</id>
     <title>BlissOS Blog Blog</title>
-    <updated>2024-01-17T00:00:00.000Z</updated>
+    <updated>2024-05-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.blissos.org/"/>
     <subtitle>BlissOS Blog Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Info about BlissOS 14 end-of-life support]]></title>
+        <id>https://blog.blissos.org/bliss-1410-eol-plan</id>
+        <link href="https://blog.blissos.org/bliss-1410-eol-plan"/>
+        <updated>2024-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When will BlissOS 14 will reach EoL ?]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="alt text" src="/assets/images/bliss14-grayscale-76d387ce90d870a9a653c0b45f3fb8ef.png" title="Info about BlissOS 14 end-of-life support" width="1920" height="1080" class="img_ev3q"></p><p>BlissOS 14 is based on AOSP 11 and was officially revealed on December 22nd, 2020. After 4 years of supporting the OS, we are planning on the day that we officially pulled the plug &amp; stop supporting this version of BlissOS.
+<a href="https://fixupx.com/electrikjesus/status/1341183060713324547" target="_blank" rel="noopener noreferrer">https://fixupx.com/electrikjesus/status/1341183060713324547</a></p><p>In case you didn't know, the last security patch for AOSP 11 was officially released by Google on Feburary, 2024:
+<a href="https://source.android.com/docs/security/bulletin/2024-02-01" target="_blank" rel="noopener noreferrer">https://source.android.com/docs/security/bulletin/2024-02-01</a></p><p>Which mean any support from now on will have to completely handled by the community. And after discussion, we've decided to prolong the support for BlissOS 14 until April 2025. During this time, we will:</p><ul><li>Merging new security patches by using <a href="https://review.lineageos.org/q/topic:%22R_asb_2024-05%22" target="_blank" rel="noopener noreferrer">unofficial Lineage backport</a></li><li>Bumping the kernel to at least 6.6.x LTS</li><li>Updating Mesa to 24.0 and up</li><li>Backporting changes from higher BlissOS version if possible.</li></ul><p>While we will commit to support the OS until next year, <strong>we will not guarantee the safety of the OS</strong>. Which is why soon we will list this as "old stable" and we will encourage users to use higher versions of BlissOS if possible.</p><p>Support on our Telegram &amp; Discord are also the same. When the version is reaching end-of-life, we will not providing support on those platform anymore.</p>]]></content>
+        <author>
+            <name>Jon West</name>
+            <uri>https://github.com/electrikjesus</uri>
+        </author>
+        <author>
+            <name>HMTheBoy154</name>
+            <uri>https://github.com/hmtheboy154</uri>
+        </author>
+        <category label="blissos" term="blissos"/>
+        <category label="bliss-x86" term="bliss-x86"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A State Of Bliss : Wrapping up a Blissful year - Last Quarter of 2023 (and beginning of 2024)]]></title>
         <id>https://blog.blissos.org/asob-q3-2023-2024</id>
