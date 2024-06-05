@@ -1,8 +1,8 @@
 ---
 slug: bliss-06-updates
-title: "Info about new BlissOS June 2024 updates"
+title: "What's new in BlissOS June 2024 releases ?"
 authors: [electrikjesus, hmtheboy154]
-description: What's new in BlissOS June 2024 releases ?
+description: Info about new BlissOS June 2024 updates
 img: assets/bliss-06-updates/bliss16-new-updates.png # Add image post (optional)
 date: 2024-06-06
 comments: true
