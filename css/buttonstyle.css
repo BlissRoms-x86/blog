@@ -1,0 +1,65 @@
+/* Acordeon styles */
+[class^="tabbutton-"]{
+    text-align: center;
+}
+
+[class^="tabbutton-"][class$="-content"] {
+	max-height: 0;
+	overflow: hidden;
+	text-align: center;
+	/* background: #0080ff; */
+	-webkit-transition: max-height .35s;
+	-o-transition: max-height .35s;
+	transition: max-height .35s;
+}
+
+[class^="tabbutton-"][class$="-content"] p {
+	margin: .5em;
+}
+
+label{
+  color: blue;
+  cursor: pointer;
+}
+
+label:hover{
+  text-decoration: underline;
+}
+
+/* Size of expand */
+input[type=radio]:checked ~ [class^="tabbutton-"][class$="-content"] {
+	max-height: 20em;
+}
+
+input[type=radio] {
+  /* position: absolute; */
+  opacity: 0;
+  z-index: -1;
+}
+
+/* Icon */
+label::after {
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+}
+
+
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count:1;
+	animation-timing-function: ease-in;
+	animation-duration: 7s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
