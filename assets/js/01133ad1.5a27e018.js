@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_1=self.webpackChunkblog_1||[]).push([[2056],{1500:s=>{s.exports=JSON.parse('{"permalink":"/tags/blissos","page":1,"postsPerPage":10,"totalPages":2,"totalCount":11,"nextPage":"/tags/blissos/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

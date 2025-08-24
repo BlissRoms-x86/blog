@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_1=self.webpackChunkblog_1||[]).push([[130],{5993:s=>{s.exports=JSON.parse('{"label":"bliss-x86","permalink":"/tags/bliss-x-86","allTagsPath":"/tags","count":11}')}}]);
